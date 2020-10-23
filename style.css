@@ -8,21 +8,23 @@
   }
   #avatar{
     width : 250px;
-    border-radius : 5px;
+    border-radius : 50%;
     border : 2px solid pink;
   }
   #name {
     font-size : 30px;
     font-weight : bold;
-    color : purple;
+    color : #5182AB;
     display : none;
+    
   }
   #username {
     font-size : 20px;
     font-weight : bold;
+    color : #A566B8;
   }
   body {
-    background : #64B5F6;
+    background : #151515;
   }
   input {
     padding : 5px 10px;
@@ -31,21 +33,34 @@
   button {
      padding : 5px 10px;
     border : none;
-    background :#1565C0;
+    background :#5c744c;
     color : white;
     border : solid white 2px;
+  }
+  button:hover {
+    background :#71905b;
+    color : white;
   }
   
   #location {
     font-size : 20px;
     padding : 5px 5px;
     font-weight: bold;
+    color :#7FA266; 
   }
   #bio {
     padding : 5px 5px;
     font-weight : bold;
+    color : #C06269;
+    font-size: 25px;
+    
   }
   
   #change {
     color : #1976D2;
+    text-decoration: underline;
+  }
+
+  #loader {
+color: #D0676F;
   }
